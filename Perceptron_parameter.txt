@@ -11,17 +11,17 @@ class Perceptron(BaseSGDClassifier, _LearntSelectorMixin):
     Parameters
     ----------
     penalty : None, 'l2' or 'l1' or 'elasticnet'
-        The penalty (aka regularization term) to be used. Defaults to None.
+        The penalty (aka regularization term) to be used. Defaults to None. 惩罚
     alpha : float
         Constant that multiplies the regularization term if regularization is
-        used. Defaults to 0.0001
+        used. Defaults to 0.0001 正则化
     fit_intercept : bool
         Whether the intercept should be estimated or not. If False, the
-        data is assumed to be already centered. Defaults to True.
+        data is assumed to be already centered. Defaults to True. 中断是否可估计
     n_iter : int, optional
-        The number of passes over the training data (aka epochs).
+        The number of passes over the training data (aka epochs). 训练数据的次数
         Defaults to 5.
-    shuffle : bool, optional, default True
+    shuffle : bool, optional, default True 
         Whether or not the training data should be shuffled after each epoch.
     random_state : int seed, RandomState instance, or None (default)
         The seed of the pseudo random number generator to use when
