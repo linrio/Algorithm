@@ -1,4 +1,4 @@
-# Author: Mathieu Blondel
+# Author: Mathieu Blondel (Modified by Lingfeng Lin)
 # License: BSD 3 clause
 
 from .stochastic_gradient import BaseSGDClassifier
