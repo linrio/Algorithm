@@ -11,14 +11,14 @@ def bayesplot():
     y = [0,0,2,2]
     w1 = [4,6,6,4]
     w2 = [4,4,6,6]
-    plot1 = plt.plot(x, y, 'ro')
-    plot2 = plt.plot(w1, w2, 'bo')
-    plot3 = plt.plot(x1, x2)
+    plot1 =  plt.plot(x,y,'ro')
+    plot2 =  plt.plot(w1,w2,'bo')
+    plot3 =  plt.plot(x1, x2)
     plt.xlabel('x1')
     plt.ylabel('x2')
-    plt.ylim(0, 7)
+    plt.ylim(0,7)
     plt.title('Bayesian discriminant interface for two models')
-    plt.show()
+    #plt.show()
 
 def BayesianClassification(w1,w2):
     m1 = sum(w1)/len(w1)
